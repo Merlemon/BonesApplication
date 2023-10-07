@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGrey"
+    tools:context=".TipBeforeCameraPage">
+
+    <Button
+        android:id="@+id/backButtonFromTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="20dp"
+
+        android:text="@string/back"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backButtonFromTip"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="30dp"
+
+        android:text="@string/tip"
+        android:textColor="@color/skinTone"
+        android:textSize="30dp"
+        android:textAlignment="center"
+
+        />
+
+    <ImageButton
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+
+        android:backgroundTint="@color/darkGrey"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:scaleX="2"
+        android:scaleY="2"
+
+        />
+
+
+
+
+</RelativeLayout>

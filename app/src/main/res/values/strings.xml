@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bones App</string>
+    <string name="startAnalys">изучить кости</string>
+    <string name="back">назад</string>
+    <string name="tip">Тут должно быть краткое описание того, как делать фото</string>
+</resources>
